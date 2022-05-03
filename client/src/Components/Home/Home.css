@@ -1,0 +1,35 @@
+.home__btn{
+    background-color: rgb(103, 110, 248);
+    color: white;
+    border: 1px solid rgb(74, 81, 211);
+    padding: 8px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+.home__btn:hover{
+    background-color: rgb(69, 77, 212);
+}
+
+.home__card__image{
+    height: 10rem;
+}
+
+.home__card{
+    width: 18rem;
+}
+
+@media (max-width: 768px){
+    .home__card__image{
+        height: 10rem;
+    }
+
+    .home__card{
+        margin-top: 20px;
+        width: 18rem;
+    }
+
+    .card__row{
+        text-align: center;
+    }
+}
